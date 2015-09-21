@@ -1,0 +1,42 @@
+##############################################################
+#
+# Xilinx Core Generator version 12.4
+# Date: Mon Sep 21 21:38:26 2015
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = Verilog
+SET device = xc6slx45
+SET devicefamily = spartan6
+SET flowvendor = Foundation_ISE
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = csg324
+SET removerpms = false
+SET simulationfiles = Behavioral
+SET speedgrade = -3
+SET verilogsim = true
+SET vhdlsim = true
+# END Project Options
+# BEGIN Select
+SELECT MIG family Xilinx,_Inc. 3.61
+# END Select
+# BEGIN Parameters
+CSET component_name=mig_v3_61
+CSET xml_input_file=./mig_v3_61/user_design/mig.prj
+# END Parameters
+GENERATE
+# CRC: 55b435b1
